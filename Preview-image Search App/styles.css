@@ -90,27 +90,28 @@ div.search-result {
   cursor: pointer;
   display: block;
   margin: 0 auto;
+  margin-bottom: 10px;
+  display: none;
 }
 #show-more-btn:hover {
   background-color: rgb(39, 68, 236);
   color: #ffff;
   transition: ease-in-out 0.3s;
 }
-@media screen and (max-width:768px){
-    .search-card{
-        width: 45%;
-    }
+@media screen and (max-width: 768px) {
+  .search-card {
+    width: 45%;
+  }
 }
-@media screen and (max-width:480px){
-    .search-card{
-        width: 100%;
-    }
-    form{
-        flex-direction: column;
-        gap: 20px;
-    }
-    #search-input{
-        width: 80%;
-        margin: ;
-    }
+@media screen and (max-width: 480px) {
+  .search-card {
+    width: 100%;
+  }
+  form {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #search-input {
+    width: 80%;
+  }
 }
