@@ -12,7 +12,7 @@
   border-radius: 6px;
   margin-top: 40px;
 }
-#resulte {
+#result {
   width: 100%;
   padding: 10px;
   font-size: 24px;
@@ -41,6 +41,10 @@ button:hover{
 }
 .clear{
   background-color: #ff4136;
+  color: #fff;
+}
+.remove{
+  background-color: #000;
   color: #fff;
 }
 .number,.decimal{
