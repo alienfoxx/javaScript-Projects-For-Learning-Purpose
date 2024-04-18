@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+body {
+  background-color: #9dffd4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.conatiner {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 18px;
+  font-family: "Roboto", sans-serif;
+  background-color: #fff5e0;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.title {
+  font-size: 36px;
+  color: #141e46;
+  margin-bottom: 10px;
+}
+.timer {
+  font-size: 72px;
+  color: #41b06e;
+}
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding: 10px 30px;
+  margin: 15px;
+  border-radius: 5px;
+  border: none;
+  transition: ease-in-out all 0.4s;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  color: #fff;
+}
+
+#start {
+  background-color: #0e46a3;
+}
+#start:hover {
+  box-shadow: #0e46a3 5px 5px 5px -1px, #0e46a3 5px 5px 3px 1px;
+  color: #fff;
+}
+#stop {
+  background-color: #ff204e;
+}
+#stop:hover {
+  box-shadow: #ff204e 5px 5px 5px -1px, #ff204e 5px 5px 3px 1px;
+  color: #fff;
+}
+#reset {
+  background-color: #007f73;
+}
+#reset:hover {
+  box-shadow: #007f73 5px 5px 5px -1px, #007f73 5px 5px 3px 1px;
+  color: #fff;
+}
