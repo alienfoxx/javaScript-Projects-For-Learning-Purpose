@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: "Arial", sans-serif;
+  padding: 0;
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 100px;
+}
+p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  border: none;
+  font-size: 3rem;
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all ease-in 0.3s;
+}
+button:hover {
+  opacity: 0.7;
+  transform: scale(1, 1.2);
+}
+#rock {
+  background-color: red;
+}
+#paper {
+  background-color: #4caf50;
+}
+#scissor {
+  background-color: #2196f3;
+}
+#user-score {
+  color: #2196f3;
+}
+#computer-score {
+  color: red;
+}
