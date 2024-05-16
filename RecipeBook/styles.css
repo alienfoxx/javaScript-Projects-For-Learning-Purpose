@@ -101,4 +101,19 @@ main {
   color: #ff6e00;
   font-family: sans-serif;
   border-radius: 100px;
+  margin: 5px;
+  cursor: pointer;
+}
+.ing:hover {
+  background-color: #ff6e00;
+  color: #fff;
+  font-weight: 600;
+  transition: ease all 1s;
+}
+.main-btn {
+  background: transparent;
+  border: none;
+  border: 2px solid #ffa31a;
+  padding: 10px;
+  color: #ffa31a;
 }
