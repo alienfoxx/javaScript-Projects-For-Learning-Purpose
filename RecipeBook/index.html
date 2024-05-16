@@ -5,50 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipe app</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <header>
-      <h1>Recipe Book App</h1>
-    </header>
-    <div class="container">
-      <ul id="recipe-list">
-        <li class="recipe-item">
-          <img
-            src="https://spoonacular.com/recipeImages/12345-312x231.jpg"
-            alt="recipe 1"
-          />
-          <h2>REcipe 1</h2>
-          <p>
-            <strong>Ingredients :</strong>
-            Ingredients1,Ingredients2,Ingredients3
-          </p>
-          <a href="#">View recipe</a>
-        </li>
-        <li class="recipe-item">
-          <img
-            src="https://spoonacular.com/recipeImages/12395-312x231.jpg"
-            alt="recipe 1"
-          />
-          <h2>REcipe 2</h2>
-          <p>
-            <strong>Ingredients :</strong>
-            Ingredients1,Ingredients2,Ingredients3
-          </p>
-          <a href="#">View recipe</a>
-        </li>
-        <li class="recipe-item">
-          <img
-            src="https://spoonacular.com/recipeImages/12336-312x231.jpg"
-            alt="recipe 1"
-          />
-          <h2>REcipe 3</h2>
-          <p>
-            <strong>Ingredients :</strong>
-            Ingredients1,Ingredients2,Ingredients3
-          </p>
-          <a href="#">View recipe</a>
-        </li>
+    <nav>
+      <form class="input-container">
+        <input type="text" class="input" placeholder="Search ..." />
+        <i class="fa-solid fa-magnifying-glass maginifier"></i>
+      </form>
+      <ul>
+        <li>Breakfast</li>
+        <li>launch</li>
+        <li>dinner</li>
       </ul>
-    </div>
+    </nav>
+    <main>
+      <div class="container">
+        <div class="imgs"></div>
+        <div class="content-container">
+          <h1 class="title">Food Name</h1>
+          <p class="info">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam quos
+            quaerat praesentium explicabo voluptates illo debitis facere
+            accusantium doloremque. Quidem.
+          </p>
+          <button>20$ -order Now</button>
+        </div>
+      </div>
+    </main>
+    <section class="ingredients"></section>
+
+    <script src="main.js"></script>
   </body>
 </html>
