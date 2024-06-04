@@ -12,6 +12,7 @@ const serachMeal = async (e) => {
     title.textContent = strMeal;
     img.style.backgroundImage = `url(${strMealThumb})`;
     info.textContent = strInstructions;
+    console.log(meal)
 
     const ingredients = [];
 
@@ -46,6 +47,7 @@ const serachMeal = async (e) => {
     );
 
     const { meals } = await response.json();
+
     return meals;
   };
   // get the user value
