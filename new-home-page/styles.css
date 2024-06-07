@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+:root {
+  --soft-orange: hsl(35, 77%, 62%);
+  --soft-red: hsl(5, 85%, 63%);
+  --off-white: hsl(36, 100%, 99%);
+  --grayish-blue: hsl(233, 8%, 79%);
+  --dark-grayish-blue: hsl(236, 13%, 42%);
+  --dark-blue: hsl(240, 100%, 5%);
+  --main-font: "Inter", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 5rem;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+nav ul li {
+  padding: 0 1rem;
+  color: var(--dark-blue);
+  cursor: pointer;
+}
+nav ul li:hover {
+  color: var(--soft-red);
+}
+.wrapper {
+  margin-top: 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.content-wrapper .slider {
+  width: 100%;
+}
+.content-wrapper .slider img {
+  width: 600px;
+}
+.content {
+  display: flex;
+
+  width: 600px;
+  align-items: center;
+  padding: 1rem;
+}
+.title {
+  margin-right: 1rem;
+  width: 70%;
+}
+.title h1 {
+  font-family: var(--main-font);
+  color: var(--dark-blue);
+}
+.action p {
+  color: var(--dark-blue);
+  font-family: var(--main-font);
+  font-size: 14px;
+}
+.action button {
+  font-family: var(--main-font);
+  padding: 1rem 2rem;
+  background-color: var(--dark-blue);
+  color: #fff;
+  border: none;
+  transition: all ease 0.5s;
+  font-weight: 700;
+  cursor: pointer;
+}
+.action button:hover {
+  background-color: var(--soft-red);
+  color: var(--dark-blue);
+}
+aside{
+    width: 300px;
+    font-family: var(--main-font);
+    padding: 0 2rem;
+    background-color: var(--dark-blue);
+}
+aside h1{
+    color: var(--soft-orange);
+}
+.box h2{
+    color:var(--off-white);
+    cursor: pointer;
+}
+.box p{
+    color: var(--grayish-blue);
+}
+.box h2:hover{
+    color: var(--soft-orange);
+}
