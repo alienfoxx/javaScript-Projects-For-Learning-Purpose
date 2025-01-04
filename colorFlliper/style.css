@@ -1,0 +1,23 @@
+.center-nav{
+    display: flex;
+
+    padding: 3rem 4rem;
+    justify-content: space-between;
+}
+
+.center-nav ul{
+    display: flex;
+    list-style: none;
+
+ 
+}
+.center-nav ul a{
+    text-decoration: none;
+    padding: 0 2rem;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
